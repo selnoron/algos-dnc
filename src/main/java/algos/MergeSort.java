@@ -2,7 +2,7 @@ package main.java.algos;
 
 public class MergeSort {
 
-    // Рекурсивная сортировка (основной алгоритм)
+    // Рекурсивная сортировкаа (основной алгоритм)
     private static void mergeSort(int[] arr, int left, int right) {
         if (left < right) {
             int mid = (left + right) / 2;
