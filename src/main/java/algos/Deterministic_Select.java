@@ -14,7 +14,7 @@ public class Deterministic_Select {
     private static int select(int[] arr, int left, int right, int k, int depth) {
         maxDepth = Math.max(maxDepth, depth);
 
-        // если маленький массив → сортировка и возврат k-го
+        // если маленький массивв → сортировка и возврат k-го
         if (right - left + 1 <= 5) {
             insertionSort(arr, left, right);
             return arr[left + k];
