@@ -7,7 +7,7 @@ public class QuickSort {
     private static int maxDepth;       // максимум глубины рекурсии
     private static int currentDepth;   // текущая глубина рекурсии
 
-    // 🔹 Удобный метод сортировки (для тестов)
+    // 🔹 Удобный метод сортировкии (для тестов)
     public static void sort(int[] arr) {
         maxDepth = 0;
         currentDepth = 0;
