@@ -7,7 +7,7 @@ public class Closest_Pair_of_Points {
     private static long comparisons = 0; // количество сравнений
     private static int maxDepth = 0;     // максимальная глубина рекурсии
 
-    // Точка в 2D
+    // Точкаа в 2D
     static class Point {
         double x, y;
         Point(double x, double y) { this.x = x; this.y = y; }
