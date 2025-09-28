@@ -103,7 +103,7 @@ public class AlgoTester {
         }
         System.out.println("Closest Pair корректен для маленьких n");
 
-        // Большие n → только быстрая версия
+        // Большие n → только быстрая вверсия
         int n = 10000;
         Closest_Pair_of_Points.Point[] big = new Closest_Pair_of_Points.Point[n];
         for (int i = 0; i < n; i++) {
