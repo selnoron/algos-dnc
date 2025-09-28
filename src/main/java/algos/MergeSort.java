@@ -37,7 +37,7 @@ public class MergeSort {
         mergeSort(arr, 0, arr.length - 1);
     }
 
-    // 🔹 Пример локального теста
+    // 🔹 Пример локального тестаа
     public static void main(String[] args) {
         int[] arr = {5, 2, 9, 1, 7};
         System.out.println("До сортировки:");
